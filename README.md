@@ -56,7 +56,7 @@ The filter for the players included some specific criteria:
 - only players from the playable leagues
 - players with more than 1000 minutes played during the season
 
-The combined result was almost 200k observations of players from the playable leagues.
+The combined result was almost **200k observations** of players from the playable leagues.
 
 ### 3.1 Data preprocessing
 
