@@ -50,11 +50,11 @@ I've use this method recently to find a replacement for the goalkeeper that want
 
 Old goalkeeper that I had to sell at the beginning of the season:
 
-!(image.thumb.png.02bd7c2eca5c20c2886387420bed6f55.png)
+![Previous goalkeeper](image.thumb.png.02bd7c2eca5c20c2886387420bed6f55.png)
 
 And his replacement results
 
-!(image.thumb.png.51492e3fcb1fd8d9fae6ab673e5ac32c.png)
+![Replacement goalkeeper](image.thumb.png.51492e3fcb1fd8d9fae6ab673e5ac32c.png)
 
 Keep in mind that we had a recent promotion so previous goalkeeper rating of 6,91 was in 'weaker' environment while our current goalkeeper rating of 6,95 is in higher division.
 
