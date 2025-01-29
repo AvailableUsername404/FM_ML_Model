@@ -1,4 +1,4 @@
-#Introduction
+# Introduction
 
 Hello everyone. We're back again with a new experiment regarding most important attributes for each respective position in FM24. It's based on the same methodology as in these two topics regarding Goalkeepers in FM23 and Goalkeepers in FM24. The difference is this time we'll get most important attributes for all positions in the game and their coefficients.
 
@@ -6,7 +6,7 @@ Hello everyone. We're back again with a new experiment regarding most important 
 
 Game setup and testing environment is exactly the same as in the Goalkeepers in FM24 topic. Just this time we've selected only the players for each respective position.
 
-#Results
+# Results
 
 Instead of using all 3 models, due to their similarities, I decided to use only polynomial regression to get 8 key attributes for each position. The number of attributes was selected arbitrary so the number is not too high, since most of attributes will have very minor coefficients, and not to small, so we have more attributes to compare our players.
 
@@ -28,13 +28,13 @@ The results are listed below:
 | #7 | Dec       | 0,005089    | Cmp       | 0,007720    | Pas       | 0,008826    | Wor       | 0,008166    | Lon       | 0,007952    | Cnt | 0,009576 | Jum | 0,007918 | Tec | 0,012662 | Jum | 0,009524 | Bal | 0,010338 |
 | #8 | TRO       | \-0,003310  | Cro       | 0,006812    | Cnt       | 0,008358    | Det       | 0,005121    | Dri       | 0,007338    | Acc Agi | 0,003329 | Str | 0,006528 | Cmp | 0,012295 | Dri | 0,008679 | Jum^ | 0,002953 |
 
-#How to use it?
+# How to use it?
 
 This attributes coefficients regards difference between players actual attributes and their league average - but since we are comparing players that will potentially play in the same league we don't have to care about it. The results will be a little bit skewed towards attributes with higher coefficients but for our purpose it's acceptable.
 
 Take any position - for example GK. Take given attribute value and multiply it by coefficient - for example 10 Agi * 0,014640 = 0,14640. Do the same for all other attributes listed. Sum the results. This is your player 'score'. You can use your existing player as a benchmark. Look for other players in your scouting view and calculate score for every one of them. Pick a player that has the highest score.
 
-#Disclaimer
+# Disclaimer
 
 If there are 2 attributes listed, like for example 'Acc Agi' for the MLR multiply those by themselves and then use coefficient ( Acc * Agi * Coeff). Jum^ is the power of two (so Jum * Jum * Coeff).
 
@@ -44,7 +44,7 @@ Pos_x is Positioning.
 
 TRO is 'Rushing out (Tendency) - it's just how FM names that attribute when exporting.
 
-#Example of usage
+# Example of usage
 
 I've use this method recently to find a replacement for the goalkeeper that wanted to leave. I've found one that had little bit higher 'score' than my current goalkeeper so in theory should be proper replacement. This is the result.
 
